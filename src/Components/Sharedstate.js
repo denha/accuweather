@@ -2,7 +2,7 @@ import React from 'react'
 import {useEffect,useState} from 'react'
 
 const Sharedstate = () =>{
-const key = "7AGZWdPRVGBVwhlorKHGovCbWy7cmBmN";
+const key = "maypAypfodbKQGN4rsu8gqDdtQPzVeju";
 const baseUrl = "https://dataservice.accuweather.com/locations/v1/cities/search";
 const[cityDefault,setCityDefault] = useState('');
 const query = `?apikey=${key}&q=${cityDefault}`;
