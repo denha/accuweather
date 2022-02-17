@@ -3,10 +3,10 @@ import {useEffect,useState} from 'react'
 
 const Sharedstate = () =>{
 const key = "7AGZWdPRVGBVwhlorKHGovCbWy7cmBmN";
-const baseUrl = "http://dataservice.accuweather.com/locations/v1/cities/search";
+const baseUrl = "https://dataservice.accuweather.com/locations/v1/cities/search";
 const[cityDefault,setCityDefault] = useState('Tampere');
 const query = `?apikey=${key}&q=${cityDefault}`;
-const baseUrlCity = "http://dataservice.accuweather.com/forecasts/v1/daily/1day/";
+const baseUrlCity = "https://dataservice.accuweather.com/forecasts/v1/daily/1day/";
 const [forecast,setForecast] = useState({});
 const [city,setCity] = useState([]);
 const [error,setError] = useState(false)
