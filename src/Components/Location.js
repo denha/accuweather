@@ -5,7 +5,7 @@ let geoPosition;
 const Location = () =>{
 const[geoCity,setgeoCity] = useState('');
 
-const key = "maypAypfodbKQGN4rsu8gqDdtQPzVeju";
+const key = "9jvadY2XUAVYDaiymHsAVQ5t66Kb2IvB";
 const baseUrl = "https://dataservice.accuweather.com/locations/v1/cities/geoposition/search";
 
 navigator.geolocation.getCurrentPosition(async(position)=> {
